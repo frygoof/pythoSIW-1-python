@@ -52,3 +52,17 @@
 # values = np.array([1, 2, 3, 4, 12, 13, 14, 15, 11, 16, 15, 6, 10, 9, 8, 7])
 # matrix = values.reshape((4, 4))
 # print(matrix)
+
+
+# matrix = []
+# for i in range(4):
+#     row = input(f"Введите 4 значения для {i + 1}-й строки через пробел: ").split()
+#     row = [int(x) for x in row]
+#     matrix.append(row)
+# for row in matrix:
+#     print(" ".join(map(str, row)))
+
+
+# matrix = [[(i + j) % 2 for j in range(4)] for i in range(4)]
+# for row in matrix:
+#     print(' '.join(map(str, row)))
