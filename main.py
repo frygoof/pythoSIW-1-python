@@ -4,5 +4,6 @@ matrix = [
    [9, 10, 11, 12],
    [16, 15, 14, 13]
 ]
- for row in matrix:
- print(row)
+
+for row in matrix:
+    print(row)
